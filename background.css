@@ -1,0 +1,20 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+     text-align: center;
+}
+
+.Microwelds{
+    /* I learnt this with external resources. This code aligns the images horizontally and vertically
+    */
+    justify-content: center;
+    align-items: center;
+}
+
+.photo1{
+    border: 4px solid black;
+    border-radius: 10px;
+    max-width:300px;
+}
