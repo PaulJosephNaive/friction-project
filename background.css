@@ -18,3 +18,34 @@ h1{
     border-radius: 10px;
     max-width:300px;
 }
+
+/* Background color of the navigation bar will have a rgb of 18, 34, 63
+*/
+.topnav{
+    overflow: hidden;
+    background-color:rgb(18, 34, 63);
+}
+
+/* Everything is shifted to the left but the text is still centered. THe font size is 17px
+*/
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* If hovered, changes in color happends
+*/
+.topnav a:hover{
+    background-color: rgb(37, 51, 77);
+    color: white;
+}
+
+/* If clicked, these changes happen
+*/
+.topnav a:active{
+    background-color: rgb(58, 182, 213);
+    color: black;
+}
